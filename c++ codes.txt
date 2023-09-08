@@ -1,0 +1,61 @@
+1)  check whether the number is prime number or not
+
+
+2)  check whether the year is a leap year or not
+
+
+3)  addition of all odd numbers from 1 to n
+
+
+4)  check whether the number is a palindrome or not
+
+
+5)  reverse a number (123 -> 321)
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int num, ans, rem;
+    cin >> num;
+    while(num >0)
+    {
+       rem = num % 10;
+       ans = (ans*10) + rem;
+       num = num/10;
+    }
+    cout << ans;
+    return 0;
+}
+
+6)  is the given number an armstrong number or not
+
+
+7)  harshad number (12 -> 1+2 -> 3 -> 12/3 -> 4 and remainder 0)
+
+
+8)  print the fibonacci series
+
+
+9)  factorial of any number using recursion
+
+
+10) find the largest number in an unsorted array
+
+
+11) find the second smallest number in an unsorted array
+
+
+12) sorting of an array from desc -> asc
+
+
+13) find the intersection of any two arrays
+
+
+14) find the first intersecting point in 2 different arrays
+
+
+15) calculate if the addition of all the odd index postion elements is greater, lesser or the same from the addition of all the even index position of the array
+
